@@ -50,7 +50,7 @@ body {
     background-color: white;
 }
 .h2 {
-    padding-top: 40px;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     font-size: 36px;
@@ -71,4 +71,23 @@ body {
     margin-right: 20%;
     display: flex;
     justify-content: center;
+}
+.quote {
+    letter-spacing: 2px;
+    display: flex;
+    max-width: 300px;
+    color: #1f2937;
+    font: light italic;
+}
+.cont3 {
+    background-color: #e5e7eb;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.andrew {
+    display: flex;
+    font-weight: bold;
+    align-items: flex-end;
 }
