@@ -19,7 +19,7 @@ body {
     font-size: 24px;
     color: #f9faf8;
 }
-.h1 {
+.h1 {  /*main page, website is awesome section*/
     font-size: 48px;
     color: #f9faf8;
 }
@@ -44,7 +44,7 @@ body {
     color: #f9faf8;
     font-weight: bold;
 }
-.cont2 {
+.cont2 {  /*4 images section */
     align-items: center;
     height: 500px;
     background-color: white;
@@ -72,16 +72,17 @@ body {
     display: flex;
     justify-content: center;
 }
-.quote {
+.quote {  /*quote section*/
     letter-spacing: 2px;
     display: flex;
-    max-width: 300px;
+    font-size: 36px;
+    max-width: 700px;
     color: #1f2937;
-    font: light italic;
+    font-family: light italic;
 }
 .cont3 {
     background-color: #e5e7eb;
-    height: 300px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,4 +91,49 @@ body {
     display: flex;
     font-weight: bold;
     align-items: flex-end;
+}
+.cto {    /*call to action section*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: white;
+}
+.textbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 80px;
+    background-color: #3882f6;
+    color: white;
+    border: #3882f6;
+    border-radius: 8px;
+    padding: 10px;
+}
+.bttn2 {
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 3px;
+    background-color: #3882f6;
+    margin-left: 150px;
+    width: 90px;
+    height: 25px;
+}
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.p, .ctoh1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 100px;
+}
+.footer { /*footer*/
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
 }
