@@ -4,7 +4,7 @@ body {
 }
 .header {
     margin-left: 15%;
-    margin-right: 15%;
+    margin-right: 18%;
     display: flex;
     justify-content: space-between;
     color: white;
@@ -29,10 +29,11 @@ body {
 }
 .cont {
     display: flex;
+    align-content: center;
     justify-content: space-between;
     margin-left: 15%;
     margin-right: 15%;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
 }
 .bttn {
     width: 90px;
@@ -44,26 +45,30 @@ body {
     font-weight: bold;
 }
 .cont2 {
+    align-items: center;
     height: 500px;
     background-color: white;
 }
 .h2 {
+    padding-top: 40px;
     display: flex;
-    margin-left: 40%;
-    margin-bottom: 50px;
+    justify-content: center;
     font-size: 36px;
     font-weight: bold;
     color: #1f2937;
 }
 .randominfo {
+   margin: 40px;
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
+   max-width: 200px;
    align-items: center;
-   gap: 30px;
+   gap: 20px;
    justify-content: center;
 }
-.img {
+.randominfo-wrapper {
+    margin-left: 20%;
+    margin-right: 20%;
     display: flex;
-    flex-direction: row;
-    
+    justify-content: center;
 }
