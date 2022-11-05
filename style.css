@@ -64,7 +64,7 @@ body {
    max-width: 200px;
    align-items: center;
    gap: 20px;
-   justify-content: center;
+   justify-content: flex-start;
 }
 .randominfo-wrapper {
     margin-left: 20%;
@@ -126,6 +126,7 @@ body {
     flex-direction: column;
 }
 .p, .ctoh1{
+    display: flex;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 100px;
