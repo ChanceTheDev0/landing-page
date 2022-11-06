@@ -125,7 +125,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-.p, .ctoh1{
+.ctoh1{
     display: flex;
     margin-top: 0px;
     margin-bottom: 0px;
