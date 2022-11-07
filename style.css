@@ -1,36 +1,59 @@
 body {
     font-family: Roboto, sans-serif;
     background-color: #192f37;
-}
+} /* header*/
 .header {
-    margin-left: 15%;
-    margin-right: 18%;
     display: flex;
-    justify-content: space-between;
     color: white;
-    font-size: 20px;
-    height: 300px;
+    font-size: 20px;   
+    height: 75px;
+}
+.headcont {
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+}
+.head-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+}
+.ul {
+    list-style: none;
+    display: flex;
 }
 .link {
+    padding: 10px;
     color: #e5e7eb;
     font-size: 18px;
 }
 .logo {
+    display: flex;
     font-size: 24px;
     color: #f9faf8;
 }
 .h1 {  /*main page, website is awesome section*/
+    display: flex;
     font-size: 48px;
     color: #f9faf8;
+    margin-bottom: 0%;
 }
 .text {
+    display: flex;
     font-size: 18px;
     color: #e5e7eb;
+    margin-top: 0%;
 }
 .cont {
     display: flex;
     align-content: center;
     justify-content: space-between;
+    box-sizing: border-box;
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 100px;
@@ -48,6 +71,7 @@ body {
     align-items: center;
     height: 500px;
     background-color: white;
+    box-sizing: border-box;
 }
 .h2 {
     padding-top: 50px;
@@ -86,6 +110,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 .andrew {
     display: flex;
@@ -96,6 +121,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
     height: 300px;
     background-color: white;
 }
@@ -103,6 +129,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
     width: 900px;
     height: 80px;
     background-color: #3882f6;
@@ -130,6 +157,9 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 100px;
+}
+.p {
+    margin-top: 0px;
 }
 .footer { /*footer*/
     color: #ffffff;
