@@ -70,6 +70,9 @@ body {
     color: #f9faf8;
     font-weight: bold;
 }
+.bttncolor {
+    color: #ffffff;
+}
 .img1 {
     display: flex;
 }
